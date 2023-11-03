@@ -1,0 +1,127 @@
+<ion-header [translucent]="true">
+  <!-- <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  <ion-grid>
+
+    <ion-row>
+      <ion-col class="user">
+        <img src="assets/images/user.png" alt="user">
+      </ion-col>
+      <ion-col class="cart">
+        <ion-fab-button>
+          <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+        </ion-fab-button>
+      </ion-col> 
+    </ion-row>
+
+    <ion-row>
+      <h1>Let's Find your <br> Instruments!</h1>
+    </ion-row>
+
+    <ion-row>
+      <ion-searchbar search-icon="search" placeholder="Search Instruments"></ion-searchbar>
+    </ion-row>
+
+     <!-- <ion-row >
+      <ion-col>
+        <ion-item [routerLink]="">
+          <ion-label>
+            Recommended
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-label>
+          Cannulas
+          </ion-label>
+        </ion-item>
+      </ion-col>
+
+      <ion-col>
+        <ion-item>
+          <ion-label>
+            Knives
+          </ion-label>
+        </ion-item>
+      </ion-col>
+
+      
+
+      
+    </ion-row>  -->
+
+    <ion-segment [scrollable]="true" value="Recommended">
+      <ion-segment-button value="Recommended">
+        <ion-label>
+          Recommended
+        </ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="Cannulas">
+        <ion-label>
+          Cannulas
+        </ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="Knives">
+        <ion-label>
+          Knives
+        </ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="Eye drapes">
+        <ion-label>
+          Eye Drapes
+        </ion-label>
+      </ion-segment-button>
+    </ion-segment>
+    
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <div class="card-circle">
+          </div>
+          
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+        
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <div class="card-circle">
+          </div>
+
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+        
+          </ion-card-content>
+          
+        </ion-card>
+      </ion-col>
+
+      
+    </ion-row>
+    
+  </ion-grid>
+</ion-content>
+      

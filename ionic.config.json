@@ -1,0 +1,7 @@
+{
+  "name": "OvationApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

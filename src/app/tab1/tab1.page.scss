@@ -1,0 +1,66 @@
+ion-fab-button{
+    width:35px;
+    height:35px;
+    float:inline-end;
+    --background:#0da39a;
+    
+}
+
+ion-grid{
+    padding:5px 10px;
+}
+
+.cart-icon{
+    padding:5px;
+}
+
+h1{
+    color:#09827b;
+    font-weight: 600;
+}
+
+ion-searchbar{
+    --background:#ddf0ef;
+    --icon-color: #0da39a;
+    --color:#9c9c9c;
+}
+
+.category a{
+    color:#9c9c9c;
+    text-decoration:none;
+    font-size: 12px;
+}
+
+ion-item{
+    --inner-border-width: 0px 0px 0px 0px;
+    font-size: 12px;
+    --inner-padding-end: 0px;
+}
+ion-item.selected{
+    --background:#0da39a;
+}
+
+ion-segment{
+    margin:0 10px;
+    padding:3px 0;
+    --background:white;
+    color:#9c9c9c;
+   
+}
+ion-segment-button{
+    --indicator-color:#ddf0ef;
+    --color-checked: #0da39a;
+    --border-width:0px;
+    --border-radius:15px;
+}
+
+ion-card{
+    --background:#ddf0ef;
+    margin:24px 5px;
+}
+.card-circle{
+   
+    height:120px;
+    background-color: #79c4bf;
+    border-bottom-right-radius:70%;
+}
