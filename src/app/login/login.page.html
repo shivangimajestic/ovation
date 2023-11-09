@@ -1,13 +1,56 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
+  <!--<ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>-->
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">login</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" >
+  <div class="header-rotate"></div>
+    
+    <ion-img class="header-imag" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag2" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag3" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag4" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag5" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag6" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img class="header-imag7" src="assets\header.png" alt="header-imag"></ion-img>
+    <ion-img [routerLink]="['/tabs/tab1']"  class="back-button" src="assets\previous BUTTON IN LOGIN.png"></ion-img>
+    <div>
+      <br>
+      <h1 >Welcome back</h1><ion-img class="logo" src="assets\ciser.png" alt="logo"></ion-img>
+      <div class="heading ">Login to your account</div>
+    </div>
+    <ion-grid> 
+      <ion-row >
+        <ion-col>
+          <ion-item class="input-icon-box label-input-style">
+            <ion-icon class="icon-box" name="person" slot="start"></ion-icon>
+            <ion-input placeholder="Username"></ion-input>        
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row >
+        <ion-col>
+          <ion-item class="input-icon-box label-input-style">
+            <ion-img class="icon-box" src="assets\padlock (1).png"slot="start"></ion-img>
+            <ion-input placeholder="Password" type="Password"></ion-input>        
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row class="label-input-style rememberme-forgotpassword-box">
+        <ion-col> 
+          <ion-checkbox labelPlacement="end" class=“checkbox-text”>Remenber me</ion-checkbox>
+        </ion-col>
+         <ion-col class="forgotpassword">
+          <a  class="forgotpassword" href="#" >Forgot Password?</a>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="full" shape="round" class="label-input-style login-button">Login</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+    <div class="heading" >Dont't have an account? <label class="signup-text" [routerLink] ="['/register']"> Sign up</label></div>
 </ion-content>

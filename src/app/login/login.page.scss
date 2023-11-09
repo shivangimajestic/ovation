@@ -1,0 +1,214 @@
+*{
+    font-family: "Calibri";
+}
+.header-rotate{
+    height:500px;
+    background-color:rgba(13, 163, 153);
+    transform: rotate(-20deg);
+    /*border-bottom-right-radius:70%;*/
+    border-bottom-left-radius: 30%;
+    position: absolute;
+    left: -95PX;
+    top: -360px;
+    width: 1000px;
+    font-family: "Calibri";
+}
+
+/*images at header start*/
+.header-imag{
+    height: 230px;
+    position: absolute;
+    top:-10px;
+    left: -40px;
+}
+.header-imag2{
+    height: 200px;
+    position:absolute;
+    top:-10px;
+    left: 210px;
+}
+.header-imag3{
+    height: 200px;
+    position: absolute;
+    top: -90px;
+    left:420px;
+}
+.header-imag4{
+    height: 200px;
+    position: absolute;
+    top: -120px;
+    left: 630px;
+}
+.header-imag5{
+    height: 200px;
+    position: absolute;
+    top: -860px;
+    left: 150px;
+}
+.header-imag6{
+    height:200px;
+    position: absolute;
+    top: -1080px;
+    left:380px;
+}
+.header-imag7{
+    height:200px;
+    position: absolute;
+    top: -1280px;
+    left:650px;
+}
+
+/*images at header start*/
+
+.back-button{
+    position: absolute;
+    top :20px;
+    left:15px;
+    border-radius: 50%;
+    height: 21px ;  
+    width: 21px ;
+    font-family: "Calibri";
+}
+
+.heading{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom:30px ;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.822);
+    font-family: "Calibri";
+    line-height: 1.5;
+
+}
+h1{
+    margin-top: 245px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(13, 92, 87);
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 0.8;
+    font-family: "Calibri";
+}
+.input-icon-box{
+    --background:#e3f4f3;
+    border-radius: 7px;
+    margin: 7px 15px 7px 15px;
+    height: 45px;
+    font-size: 18px;
+    font-family: "Calibri";
+    color: rgb(39, 42, 42);
+    line-height: 1.2;
+    font-family: "Calibri";
+    font-size: 18px;
+}
+.icon-box{
+    color: rgb(13, 92, 87) ;
+    height: 20px;
+    font-family: "Calibri";
+}
+.login-button{
+    padding:0px 15px 5px 15px;
+    --background: rgb(17, 162, 154);
+    text-transform: capitalize;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    font-family: "Calibri";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    min-height: 0px !important;
+    font-family: "Calibri";
+}
+.rememberme-forgotpassword-box{
+    margin: 7px 15px 7px 15px;
+    font-family: "Calibri";
+    font-size: 12px;
+    color: rgb(48, 48, 49);
+    font-weight: bold;
+    line-height: 2;
+}
+.forgotpassword{
+    text-align: end;
+    margin-bottom:40px ;
+    text-decoration: none;
+    margin:0px;
+    font-size: 12px;
+    font-family: "Calibri";
+    color: rgb(48, 48, 49);
+    font-weight: bold;
+    line-height: 2;
+    font-family: "Calibri";
+}
+.checkbox-text{
+    font-size: 12px;
+    font-family: "Calibri";
+    color: rgb(48, 48, 49);
+    font-weight: bold;
+    line-height: 2;
+    font-family: "Calibri";
+}
+  
+.signup-text{
+    color: rgb(9, 74, 71);
+    font-size: 18px;
+    font-family: "Calibri";
+    line-height: 1.5;
+    text-decoration:underline;
+    font-family: "Calibri";
+
+}
+.logo{
+    height:100px;
+    display: inline-block;
+    position:absolute;
+    top: 250px;
+    left: 70%;
+    font-family: "Calibri";
+}
+@media only screen and (min-width:300px) {
+    .logo{
+        
+        left:69%;
+    }
+}
+@media only screen and (min-width:400px) {
+    .logo{
+        left: 65%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .label-input-style{
+      width: 50%;
+      position: relative;
+      left: 25%;
+      margin:0px;
+      padding: 0px;
+      }
+    .logo{
+        left: 59%;
+    }
+    .header-rotate{
+        height: 500px;
+        border-bottom-left-radius: 30%;
+        position: absolute;
+        transform: rotate(-16deg);
+        left: -73PX;
+        top: -366px;
+        width: 1500px;
+    }
+}
+@media only screen and (min-width:1100px) {
+    .logo{
+        top: 270px;
+        left:57%;
+    }
+
+h1{
+    margin-top: 280px;
+}
+}
+  
+
+
+ 

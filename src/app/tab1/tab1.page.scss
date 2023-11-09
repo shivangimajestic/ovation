@@ -1,3 +1,6 @@
+*{
+    font-family: "Poppins";
+}
 ion-fab-button{
     width:35px;
     height:35px;
@@ -7,16 +10,20 @@ ion-fab-button{
 }
 
 ion-grid{
-    padding:5px 10px;
+    padding: 25px 25px;
 }
 
 .cart-icon{
     padding:5px;
+    height: 35px;
 }
 
 h1{
-    color:#09827b;
-    font-weight: 600;
+    color: rgb(9, 130, 123);
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 ion-searchbar{
@@ -63,4 +70,22 @@ ion-card{
     height:120px;
     background-color: #79c4bf;
     border-bottom-right-radius:70%;
-}
+} 
+
+.user {
+    height: 35px;
+  }
+  
+  .Let_s_find_your_Instruments__ {
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(9, 130, 123);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 20.938px;
+    top: 110.625px;
+    z-index: 5;
+  }
+  
