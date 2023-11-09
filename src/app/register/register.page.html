@@ -1,13 +1,63 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <!--<ion-toolbar>
     <ion-title>register</ion-title>
-  </ion-toolbar>
+  </ion-toolbar>-->
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">register</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" >
+  <ion-img [routerLink]="['/tabs/tab1']"  class="back-button" src="assets\back.png"></ion-img>
+  <br><br><br><br>          
+  <div>
+    <h1 >Register </h1><ion-img class="logo" src="assets\ciser.png" alt="logo"></ion-img>
+    <div class="heading ">Create your new account</div>
+  </div>
+  <ion-grid> 
+    <ion-row >
+      <ion-col>
+        <ion-item class="input-icon-box label-input-style" style="--border-style:none;">
+          <ion-icon class="icon-box" name="person" slot="start"></ion-icon>
+          <ion-input placeholder="Username"></ion-input>   
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col>
+        <ion-item class="input-icon-box label-input-style">
+          <ion-icon class="icon-box" name="mail" slot="start"></ion-icon>
+          <ion-input placeholder="Sample@gmail.com"></ion-input>        
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col>
+        <ion-item class="input-icon-box label-input-style">
+          <ion-img class="icon-box" src="assets\padlock (1).png"slot="start"></ion-img>
+          <ion-input placeholder="Password" type="Password"></ion-input>        
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col>
+        <ion-item class="input-icon-box label-input-style">
+          <ion-img class="icon-box" src="assets\padlock (1).png"slot="start"></ion-img>
+          <ion-input placeholder="Password" type="Confirm Password"></ion-input>        
+        </ion-item>
+      </ion-col>
+    </ion-row> 
+    <ion-row>
+      <ion-col>
+        <div class="term-condition-box">By Signing you agree to our</div>
+        <div class="heading"><a href="#" class="heading">Terms & Condition</a></div></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+      <ion-button expand="full" shape="round" class="label-input-style button-text signup-button">Sign up</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="heading">Already have an account? <label class="anchor-text" [routerLink] ="['/login']"> Login</label></div>
 </ion-content>
+
+
+
