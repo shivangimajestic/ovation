@@ -1,16 +1,15 @@
 *{
-    font-family: "Poppins";
+    font-family: system-ui;
 }
 ion-fab-button{
     width:35px;
     height:35px;
     float:inline-end;
-    --background:#0da39a;
-    
+    --background:#0da39a;    
 }
 
 ion-grid{
-    padding: 25px 25px;
+    padding: 13px 15px 5px 15px;
 }
 
 .cart-icon{
@@ -21,7 +20,7 @@ ion-grid{
 h1{
     color: rgb(9, 130, 123);
     font-size: 25px;
-    font-family: "Poppins";
+    font-family: system-ui;
     font-weight: bold;
     line-height: 1.2;
 }
@@ -30,6 +29,9 @@ ion-searchbar{
     --background:#ddf0ef;
     --icon-color: #0da39a;
     --color:#9c9c9c;
+    padding: 0px;
+    margin: 0px;
+    height: 36PX;
 }
 
 .category a{
@@ -52,11 +54,11 @@ ion-segment{
     padding:3px 0;
     --background:white;
     color:#9c9c9c;
-   
 }
 ion-segment-button{
     --indicator-color:#ddf0ef;
     --color-checked: #0da39a;
+    --font-weight: bold;
     --border-width:0px;
     --border-radius:15px;
 }
@@ -64,17 +66,77 @@ ion-segment-button{
 ion-card{
     --background:#ddf0ef;
     margin:24px 5px;
+    height: 207px;
+    width: 200px;
 }
 .card-circle{
-   
-    height:120px;
+    height: 200px;
+    width: 250px;
     background-color: #79c4bf;
-    border-bottom-right-radius:70%;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: -44px;   
 } 
 
 .user {
     height: 35px;
   }
-  
+ion-card-header,ion-card-subtitle{
+    font-size: 12.5px;
+    font-family: system-ui;
+    color: rgb(13, 163, 154);
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 1px;
+    text-align: start;
+}
+ion-card-content{
 
+    font-size: 12.5px;
+    font-family: system-ui;
+    color: rgb(32, 32, 32);
+    line-height: 1.2;
+    text-align: start;
+    font-weight: 500;
+}
+
+.image-for-cart{
+    width: 144px;
+    position: absolute;
+    top: -19px;
+    left: 11%;
+}
   
+.Recent-Viewed-title{
+    margin-top: 10px;
+    font-size: 12.5px;
+    font-family: system-ui;
+    color: rgb(9, 130, 123);
+    font-weight: bold;
+    line-height: 0px;
+    padding-left:12px ;
+}
+.font-class-recent-view{
+    padding-top: px;
+}
+.font-recend-view{
+    font-size: 11px;
+    font-family: system-ui;
+    color: rgb(32, 32, 32);
+    line-height: 1.2;
+    align-items: center;
+    font-weight: 700;
+}
+.mic{
+    font-size: 23px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color:  #0da39a;
+}
+.search-bar{
+background-color: pink;
+//height: 36px;
+padding: 0px;
+margin: 0px;
+}
