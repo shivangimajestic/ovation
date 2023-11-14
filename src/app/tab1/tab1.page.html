@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <!-- <ion-toolbar>
-    <ion-title>
+    <ion-title> 
       Tab 1
     </ion-title>
   </ion-toolbar> -->
@@ -29,11 +29,16 @@
     </ion-row>
 
     <ion-row>
-      <h1>Let's Find your <br> Instruments!</h1>
+      <h1>Let's find your <br> Instruments !</h1>
     </ion-row>
 
-    <ion-row>
-      <ion-searchbar search-icon="search" placeholder="Search Instruments"></ion-searchbar>
+    <ion-row class="search-bar">
+      <ion-col style="padding: 0px;">
+        <ion-searchbar search-icon="search" mic-icon="mic" placeholder="Search Instruments" ></ion-searchbar>
+      </ion-col>
+      <ion-col  class="mic" size="2">
+        <ion-icon name ="mic"></ion-icon>
+      </ion-col>
     </ion-row>
 
      <!-- <ion-row >
@@ -64,7 +69,7 @@
 
       
     </ion-row>  -->
-
+    
     <ion-segment [scrollable]="true" value="Recommended">
       <ion-segment-button value="Recommended">
         <ion-label>
@@ -87,42 +92,56 @@
         </ion-label>
       </ion-segment-button>
     </ion-segment>
-    
+    <ion-segment [scrollable]="true" value="Recommended">
+      <ion-segment-button value="channulas">
+        <ion-card>
+          <div class="card-circle">
+          </div>
+          <br><br><br><br><br><br><br>
+          <ion-card-header>
+            <ion-card-subtitle>Cannulas</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Rycroft Anterior<br>Chamber Cannula
+          </ion-card-content>
+        </ion-card>
+        <img class="image-for-cart" src="assets\injection image.png" alt="img">
+      </ion-segment-button>
+      <ion-segment-button value="Knives">         
+        <ion-card>
+          <div class="card-circle">
+          </div>
+          <br><br><br><br><br><br><br>
+          <ion-card-header>
+            <ion-card-subtitle>Knives</ion-card-subtitle>
+          </ion-card-header>
+            <ion-card-content>
+              Slit knife
+            </ion-card-content>
+          </ion-card>
+            <img class="image-for-cart" src="assets\needel.png" alt="img">
+      </ion-segment-button>
+    </ion-segment>
+    <ion-row ><label class="Recent-Viewed-title">Recent Viewed</label></ion-row>
     <ion-row>
-      <ion-col>
-        <ion-card>
-          <div class="card-circle">
-          </div>
-          
-          <ion-card-header>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-          </ion-card-header>
+      <ion-col  >
+        <ion-row >
+          <ion-col size="2.5">
+            <img class ="image-recend-view"  src="assets\recent view needle.png" alt="img">
+          </ion-col>
+          <ion-col size="3.5  " class="font-class-recent-view">
+            <span class="font-recend-view">Vitreoretinal  Instrument</span>
+          </ion-col>
         
-          <ion-card-content>
-        
-          </ion-card-content>
-        </ion-card>
+          <ion-col size="2.5">
+            <img  class ="image-recend-view" src="assets\recent view ciser.png" alt="img">
+          </ion-col>
+          <ion-col size="3.5" class="font-class-recent-view">
+            <span class="font-recend-view">Barraquer Needle holder</span>
+          </ion-col>
+        </ion-row>
       </ion-col>
-
-      <ion-col>
-        <ion-card>
-          <div class="card-circle">
-          </div>
-
-          <ion-card-header>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-          </ion-card-header>
-        
-          <ion-card-content>
-        
-          </ion-card-content>
-          
-        </ion-card>
-      </ion-col>
-
-      
-    </ion-row>
-    
+    </ion-row>    
   </ion-grid>
 </ion-content>
       
